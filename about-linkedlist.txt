@@ -1,5 +1,7 @@
 
 
+REF  https://www.interviewcake.com/concept/java/linked-list
+
 Most languages (including Java) don't provide a linked list implementation. 
 Assuming we've already implemented our own, here's how we'd construct the linked list above:
 
