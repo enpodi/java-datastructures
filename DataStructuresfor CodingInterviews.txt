@@ -1,0 +1,57 @@
+
+
+REF   https://www.interviewcake.com/article/python/data-structures-coding-interview#ram
+
+Computer science in plain English
+To really understand how data structures work, we're going to derive each of them from scratch. Starting with bits.
+
+Don't worry—we'll skip the convoluted academic jargon and proofs.
+
+We'll cover:
+
+Random Access Memory
+Binary Numbers
+Fixed-Width Integers
+Arrays
+Strings
+Pointers
+Dynamic Arrays
+Linked Lists
+Hash Tables
+
+
+
+
+Random Access Memory (RAM)
+When a computer is running code, it needs to keep track of variables (numbers, strings, arrays, etc.).
+
+Variables are stored in random access memory (RAM). We sometimes call RAM "working memory" or just "memory."
+
+RAM is not where mp3s and apps get stored. In addition to "memory," your computer has storage (sometimes called "persistent storage" or "disc"). 
+While memory is where we keep the variables our functions allocate as they crunch data for us, storage is where we keep files like mp3s, videos, Word documents, and even executable programs or apps.
+
+Memory (or RAM) is faster but has less space, while storage (or "disc") is slower but has more space. 
+A modern laptop might have ~500GB of storage but only ~16GB of RAM.
+
+
+Think of RAM like a really tall bookcase with a lot of shelves. Like, billions of shelves.
+The shelves are numbered.
+We call a shelf's number its address.
+Each shelf holds 8 bits. A bit is a tiny electrical switch that can be turned "on" or "off." 
+But instead of calling it "on" or "off" we call it 1 or 0.
+
+0 00000000
+1 00000001
+2 00000010
+3 00000011
+
+8 bits is called a byte. So each shelf has one byte (8 bits) of storage.
+
+Of course, we also have a processor that does all the real work inside our computer:
+
+Processor   <->   Shelf
+
+It's connected to a memory controller. The memory controller does the actual reading and writing to and from RAM. 
+It has a direct connection to each shelf of RAM.
+
+Processor   <-------Memory  Controller----->   Shelf
